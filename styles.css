@@ -123,7 +123,7 @@
 }
 
 .section-title-mobile:hover{
-	text-decoration-line: none;
+	text-decoration: none;
 }
 
 .text-mobile{
@@ -179,7 +179,7 @@
 	display: flex;
 	flex-direction: column;
 	background-color: #e8c3b9;
-	align-items: center;
+	align-items: space-around;
 }
 
 .softwares-mobile{
@@ -196,7 +196,7 @@
 }
 
 .softwares-mobile-icons{
-	color: green;
+	color: white;
 }
 }
 
