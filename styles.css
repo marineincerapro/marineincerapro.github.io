@@ -1,0 +1,545 @@
+
+
+
+/* MEDIA */ 
+@media (max-width: 768px) {
+
+
+#wrapper{
+	display: none;
+}
+
+}
+
+.h-mobile-contact:hover{
+	color: white;
+}
+
+#wrapper-mobile{
+	display: flex;
+	flex-direction: column;
+}
+
+#mainbanner-mobile{
+	display: flex;
+	flex direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #e8c3b9 ;
+	padding: 2vh;
+}
+
+.name-mobile{
+	display: flex;
+	flex-direction: column;
+}
+
+.h-mobile{
+	color: white;
+}
+
+.h-mobile-contact{
+	font-size: 12px;
+	color: grey;
+}
+
+.portrait-mobile{
+	width: 40vw;
+	height: 50vw;
+	border-radius: 50%;
+}
+
+#banner-title-mobile{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.title-mobile{
+	font-size: 25px;
+	color: /*#e8c3b9*/ grey;
+	padding: 2vh;
+}
+
+.title-icon-mobile{
+	font-size: 40px;
+}
+
+#education-mobile{
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1vh;
+}
+
+.education-cases-mobile{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-radius: 0%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+.card-body-mobile{
+	width: 100%;
+}
+
+.education-icons-mobile{
+	font-size: 20px;
+	color: white;
+}
+
+.education-icons-mobile:hover{
+	color: #e8c3b9;
+}
+
+
+/* Competences & others - BANNER */
+
+.card-header-mobile{
+	width: 100%;
+	padding: 0px;
+}
+
+.btn-mobile{
+	padding: 0px;
+	width: 100%;
+}
+
+.btn-mobile:hover{
+	text-decoration-line: none;
+}
+
+.section-title-mobile{
+	background-color: #e8c3b9;
+	color: grey;
+	padding: 2vh;
+}
+
+.text-mobile{
+	font-size: 12px;
+}
+
+.mobile-icons-leisures-case{
+	text-align: center;
+}
+
+.mobile-icons-leisures{
+	font-size: 30px;
+	color: #e8c3b9;
+}
+
+.mobile-carousel{
+	justify-content: center;
+}
+
+.mobile-links:hover{
+	color: #e8c3b9;
+}
+
+#end{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.links{
+	color: grey;
+	background-color: #e8c3b9;
+	margin: 1vh;
+	padding: 3vw;
+	border-radius: 70%;
+}
+
+.links:hover{
+	background-color: white;
+	color: #e8c3b9;
+}
+
+.back-mobile-icon{
+	display: flex;
+	justify-content: center;
+}
+
+.back-mobile-icon:hover{
+	color: #e8c3b9;
+}
+
+.softwares-mobile-section{
+	display: flex;
+	flex-direction: column;
+	background-color: #e8c3b9;
+	align-items: left;
+}
+
+.softwares-mobile{
+	display: flex;
+	flex-direction: row;
+	font-size: 10px;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.legend-mobile{
+	font-size: 8px;
+}
+
+.softwares-mobile-icons{
+	color: white;
+}
+}
+
+
+/* PC ONLY */
+
+/*WRAPPER */
+#wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+#nav-up{
+	display: flex;
+	position: fixed;
+	justify-content: flex-end;
+	background-color: white;
+	color: grey;
+	border-radius: 20%;
+	width: 10%
+	font-size: 20px;
+}
+
+
+/* BANNER */
+#introduction{
+	display: flex;
+	background-image: url(pictures/plant.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: grey;
+}
+
+h1{
+	font-size: 70px;
+	font-style: bold;
+	
+}
+
+#presentation {
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	align-items: center;
+	padding: 5vh;
+}
+
+.portrait{
+	width: 150px;
+	border-radius: 50%;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.mail{
+	color: grey;
+}
+
+.mail:hover{
+	color:pink; 
+}
+
+/* RIGHT BUTTONS*/
+#education {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.education-cases{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 50%;
+	margin:1vh;
+}
+
+.education-cases:hover{
+		background-color: white;
+		border-radius: 20%; 
+}
+
+.education-icons{
+	font-size: 40px;
+	color: grey;
+	background-color: white;
+	border-radius: 50%; 
+	padding: 10px;
+}
+
+.education-icons:hover{
+	color: pink;
+}
+
+.social-icons{
+	font-size: 50px;
+	color: pink;
+}
+/* TITLE */
+
+#title-wrapper{
+	display: flex;
+	flex-direction: column;
+	color: pink;
+	text-align: center;
+	padding: 5vh;
+	font-size: 30px;
+}
+
+.wrapper-title-icon{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5vh;
+}
+
+/*CONTAINT*/
+
+#containt-wrapper{
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.containt{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.section{
+	margin-bottom: 1vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.cases{
+	width: 50%;
+	padding: 10vh;
+}
+
+.containt-pictures{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 30vh;
+}
+
+/* COMPETENCES */
+
+.competences-cases{
+	display: flex;
+	flex-direction: column;
+	color: black;
+	text-align: left;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+
+/* PROJECTS */
+
+#projects{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.projects-cases{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+.collapse-cv-projects{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+
+/* SOFTWARES  LOGICIELS*/
+
+.softwares-card{
+	width: 50%;
+}
+
+.softwares-card:hover{
+	background-color: pink;
+	width: 100%;
+}
+
+.softwares{
+	display: flex;
+  	background-color: pink;
+  	color: grey;
+}
+
+.softwares-case{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding: 3vh;
+	margin: 0px;
+	font-size: 12px;
+}
+
+.software-section{
+	width: 50%;
+	padding: 0px;
+}
+
+.softwares-icons{
+	text-align: center;
+	font-size: 40px;
+}
+
+.h-softwares:hover{
+	color: white;
+}
+
+.sw1{ 
+	color: grey; 
+}
+
+.sw2{
+	color: white;
+}
+
+.legend{
+  background-color: pink;
+  color: grey;
+  font-size: 12px;
+}
+
+/*ALL COMPONENTS*/
+
+.card-comp{
+	width: 100%;
+	text-align: center;
+}
+
+.collapse-cv{
+	text-align: left;
+}
+
+h3{
+	font-size: 25px;
+	color: pink;
+}
+
+h4{
+	font-size: 20px;
+}
+
+span{
+	color: pink;
+	font-style: solid;
+}
+
+a{
+	text-decoration-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color: pink;
+}
+
+/*COLLAPSES TITLES*/
+
+.btn-cv{
+	color: grey;
+}
+
+.btn-cv:hover{
+	text-decoration: none;
+	color: pink;
+}
+
+/*CAROUSELS*/
+
+.projects-carousel{
+	width: 400px;
+}
+
+.others-carousel{
+	width: 500px;
+}
+
+/* Characteristics */
+
+.arrows:before {
+  content : "\002794 ";
+  color: pink;
+}
+
+.arrows{
+	list-style: none;
+}
+
+.presentation-cases{
+	display: flex;
+	flex-direction: column;
+	color: black;
+	text-align: left;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+
+}
+
+#end-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+}
+
+.pc-links{
+	background-color:pink;
+	padding: 20px;
+	color: white;
+	border-radius: 50%;
+	margin: 10px; 
+	font-size: 20px;
+
+}
+
+.pc-links:hover{
+	background-color: white;
+	color: pink;
+}
+
+/* #e8c3b9  #9BA5B5 */
+
+
+
+
+
+@media (min-width: 768px){
+	#wrapper-mobile{
+		display: none;
+	}
+}
