@@ -110,10 +110,11 @@
 	padding: 0px;
 	width: 100%;
 	text-decoration: none;
+	color: grey;
 }
 
 .btn-mobile:hover{
-	text-decoration-line: none;
+	text-decoration: none;
 }
 
 
@@ -140,9 +141,6 @@
 	color: #e8c3b9;
 }
 
-.mobile-carousel{
-	justify-content: center;
-}
 
 .mobile-links:hover{
 	color: #e8c3b9;
